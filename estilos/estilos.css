@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body{
-  background-color: black;
+  background-color: #222831;
   color:white;
+  font-family: 'Roboto', sans-serif;
 }
 
 #particles-js{
@@ -14,4 +16,14 @@ body{
 .contenedor{
   position: relative;
   z-index: 99;
+}
+
+.centrado{
+  text-align: center;
+}
+
+label{
+  color:#00ADB5;
+  font-size: 19px;
+  font-weight: bolder;
 }
