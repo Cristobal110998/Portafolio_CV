@@ -1,29 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-body{
-  background-color: #222831;
-  color:white;
-  font-family: 'Roboto', sans-serif;
+html {
+  overflow-y: scroll;
 }
 
-#particles-js{
+body {
+  background-color: #222831;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+#particles-js {
   height: 100vh;
   width: 100%;
   position: fixed;
   z-index: -1;
 }
 
-.contenedor{
+.nav-link active,
+.nav-link {
+  color: white;
+}
+
+.nav-link active:hover,
+.nav-link:hover {
+  color: #00adb5;
+}
+
+.contenedor {
   position: relative;
   z-index: 99;
 }
 
-.centrado{
+.centrado {
   text-align: center;
 }
 
-label{
-  color:#00ADB5;
+label {
+  color: #00adb5;
   font-size: 19px;
   font-weight: bolder;
+}
+
+.caption-style-4 li {
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.caption-style-4 li:hover .caption {
+  opacity: 1;
+}
+
+.caption-style-4 li:hover img {
+  opacity: 1;
+  transform: scale(1.15, 1.15);
+  -webkit-transform: scale(1.15, 1.15);
+  -moz-transform: scale(1.15, 1.15);
+  -ms-transform: scale(1.15, 1.15);
+  -o-transform: scale(1.15, 1.15);
+}
+
+.caption-style-4 img {
+  margin: 0px;
+  padding: 0px;
+  float: center;
+  z-index: 4;
+}
+
+.caption-style-4 .caption {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.45s ease-in-out;
+  -moz-transition: all 0.45s ease-in-out;
+  -o-transition: all 0.45s ease-in-out;
+  -ms-transition: all 0.45s ease-in-out;
+  transition: all 0.45s ease-in-out;
+}
+
+.caption-style-4 img {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.caption-style-4 .blur {
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 300px;
+  width: 400px;
+  z-index: 5;
+  position: absolute;
+}
+
+.caption-style-4 .caption-text h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.caption-style-4 .caption-text {
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  top: 100px;
 }

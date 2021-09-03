@@ -4,116 +4,234 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilos/estilos.css">
+    
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="estilos/estilos.css">
     <title>Mi portafolio</title>
   </head>
   <body>
     <div id="particles-js"></div>
       <div class="contenedor">
       <div class="centrado">
-
-    <h1>Cristobal Alejandro Barajas Heredia</h1>
-    
-    <img src="imagenes/foto.jpeg" alt="foto">
+        <br>
+    <h1>Cristobal Alejandro Barajas Heredia</h1><br>
+ 
+    <div class="text-center">
+      <img src="imagenes/foto.jpeg" class="rounded-circle" alt="imagen" width="190px" height="140px">
+    </div><br><br>
 
     <h2>
       Web developer with experience in Javascript, C++, PHP, MySQL, CSS, HTML,
       Laravel8
-    </h2>
+    </h2><br>
 
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <p>"The function of good software is to make the complex appear to be simple".</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        <cite title="Source Title">Grady Booch</cite>
+      </figcaption>
+    </figure>
+
+    </div><br>
+
+
+    <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Resume</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Works</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">About</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+        <br>
+
+
+        <div class="row justify-content-evenly">
+          <div class="col-4">
+            <label for="">EDUCATION</label>
+            <p>
+              Universidad de Guadalajara - Centro Universitario de Ciencias Exactas e
+              Ingenierías<br />
+              Ingeniería en informática<br />
+              2017 - Currently<br />
+              4-year university degree focusin on Computer Science / Computer
+              Engineering bp/ Information Technology / Information Systems
+            </p>
+            <br />
+        
+       
+        
+            <p>
+              Universidad de Guadalajara - Preparatoria No.17<br />
+              Bachillerato tecnológico en desarrollo de software<br />
+              2014 - 2017<br />
+              3-year focusing on Computer Engineering / Information Technology /
+              Software Engineering
+            </p>
+            <br />
+        
+        
+            <label for="">SKILLS</label>
+            <ul>
+              <li>Committed</li>
+              <li>Teamwork</li>
+              <li>Hardworking</li>
+              <li>Persistent</li>
+              <li>Responsible</li>
+              <li>Ability to adapt</li>
+              <li>Proactive</li>
+            </ul><br/>
+        
+            <label for="">CERTIFICATES</label>
+            <p>SEP - Certificado de Competencia Laboral en el Estándar de Competencia:
+              Tecnología Microsoft para la productividad (MS Excel, Ms PowerPoint, Ms Word)<br/>
+              May 2017 <br/>
+              Folio acreditación: 000493-F4AL0003
+            </p>
+        
+
+          </div>
+          <div class="col-4">
+            <label for="">PERSONAL DETAILS</label>
+            <p>Date of birth: November 9, 1998.<br/>
+              Place of birth: Guadalajara,Jalisco.<br/>
+              Address: Parques Santa Cruz del Valle, San Pedro Tlaquepaque, Guadalajara Jalisco.
+            </p><br/>
+        
+        
+            <label for="">WORK EXPERIENCE</label>
+            <p>SUTERM - Intern - Software Developer<br/>
+              May 2021 - Currently <br/>
+              Creation of a system to manage and consult the 
+              benefits provided to CFE workers, using 
+              technologies such as Laravel8, Bootstrap, MySQL, 
+              Javascript, CSS, GitHub, Trello.
+            </p><br/>
+        
+            <p>
+              CUCEI - Coordinación de informática - Site Manager <br/>
+              October 2020 - April 2021 <br/>
+              Maintenance and updating of site content using a 
+              CMS (Drupal7) to keep students informed.
+            </p><br/>
+        
+            <p>
+              Liferpal MD - Intern - Software Developer <br/>
+              January 2017 - June 2017 <br/>
+              Creation of a management and assignment 
+              system for the company's employees and 
+              equipment, using technologies such as PHP, 
+              MySQL, Javascript, CSS, PHPJasper.
+            </p><br/>
+        
+        
+        
+            <label for="">LANGUAGES</label>
+            <p>
+              Spanish - Native <br/><br/>
+              English - Intermediate<br/>
+              CUCEI - JOBS by Proulex - ESP: Science and Engineering - 6 levels<br/>
+              August 2018 - May 2020<br/>
+              B1 level obtained in TOEFL ITP test. Student Number: 2613117079
+            </p><br/>
+          </div>
+        </div>
+
+    
+
+
+
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-50">
+              <img src="imagenes/Liferpal.jpg" class="card-img-top" alt="..." width="100px" height="200px">
+              <div class="card-body">
+                <h5 class="card-title">System for employee management and computer equipment assignment.</h5>
+                <p class="card-text">Creation of a management and assignment 
+                  system for the company's employees and 
+                  equipment, using technologies such as PHP, 
+                  MySQL, Javascript, CSS, PHPJasper.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-50">
+              <img src="imagenes/inni.jfif" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title">Web site maintenance and updating</h5>
+                <p class="card-text">Maintenance and updating of site content using a 
+                  CMS (Drupal7) to keep students informed</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-50">
+              <img src="imagenes/suterm.png" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title">SUTERM Integral Personnel System (unionized)</h5>
+                <p class="card-text">Creation of a system to manage and consult the 
+                  benefits provided to CFE workers, using 
+                  technologies such as Laravel8, Bootstrap, MySQL, 
+                  Javascript, CSS, GitHub, Trello.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+
+
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+        <div class="text-center">
+        <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status"><br><br>
+          <span class="visually">Loading...</span>
+        </div>
+        </div>
+
+      </div>
     </div>
 
 
-    <label for="">EDUCATION</label>
-    <p>
-      Universidad de Guadalajara - Centro Universitario de Ciencias Exactas e
-      Ingenierías<br />
-      Ingeniería en informática<br />
-      2017 - Currently<br />
-      4-year university degree focusin on Computer Science / Computer
-      Engineering bp/ Information Technology / Information Systems
-    </p>
-    <br />
-
-
- 
-
-    <p>
-      Universidad de Guadalajara - Preparatoria No.17<br />
-      Bachillerato tecnológico en desarrollo de software<br />
-      2014 - 2017<br />
-      3-year focusing on Computer Engineering / Information Technology /
-      Software Engineering
-    </p>
-    <br />
-
-
-    <label for="">SKILLS</label>
-    <ul>
-      <li>Committed</li>
-      <li>Teamwork</li>
-      <li>Hardworking</li>
-      <li>Persistent</li>
-      <li>Responsible</li>
-      <li>Ability to adapt</li>
-      <li>Proactive</li>
-    </ul><br/>
-
-    <label for="">CERTIFICATES</label>
-    <p>SEP - Certificado de Competencia Laboral en el Estándar de Competencia:
-      Tecnología Microsoft para la productividad (MS Excel, Ms PowerPoint, Ms Word)<br/>
-      May 2017 <br/>
-      Folio acreditación: 000493-F4AL0003
-    </p>
-
-
-    <label for="">PERSONAL DETAILS</label>
-    <p>Date of birth: November 9, 1998.<br/>
-      Place of birth: Guadalajara,Jalisco.<br/>
-      Address: Parques Santa Cruz del Valle, San Pedro Tlaquepaque, Guadalajara Jalisco.
-    </p><br/>
-
-
-    <label for="">WORK EXPERIENCE</label>
-    <p>SUTERM - Intern - Software Developer<br/>
-      May 2021 - Currently <br/>
-      Creation of a system to manage and consult the 
-      benefits provided to CFE workers, using 
-      technologies such as Laravel8, Bootstrap, MySQL, 
-      Javascript, CSS, GitHub, Trello.
-    </p><br/>
-
-    <p>
-      CUCEI - Coordinación de informática - Site Manager <br/>
-      October 2020 - April 2021 <br/>
-      Maintenance and updating of site content using a 
-      CMS (Drupal7) to keep students informed.
-    </p><br/>
-
-    <p>
-      Liferpal MD - Intern - Software Developer <br/>
-      January 2017 - June 2017 <br/>
-      Creation of a management and assignment 
-      system for the company's employees and 
-      equipment, using technologies such as PHP, 
-      MySQL, Javascript, CSS, PHPJasper.
-    </p><br/>
-
-
-
-    <label for="">LANGUAGES</label>
-    <p>
-      Spanish - Native <br/><br/>
-      English - Intermediate<br/>
-      CUCEI - JOBS by Proulex - ESP: Science and Engineering - 6 levels<br/>
-      August 2018 - May 2020<br/>
-      B1 level obtained in TOEFL ITP test. Student Number: 2613117079
-    </p><br/>
-
 </div>
 
+</script>
 <script type="text/javascript" src="../js/particles.min.js"></script>
 <script type="text/javascript" src="../js/app.js"></script>
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+crossorigin="anonymous"></script>
 
   </body>
 </html>
