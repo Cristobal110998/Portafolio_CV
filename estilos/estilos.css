@@ -108,3 +108,9 @@ label {
   text-align: center;
   top: 100px;
 }
+
+i{
+  margin-right: 30px;  
+  margin-left: auto;
+  color:white;
+}
