@@ -41,6 +41,7 @@ label {
   color: #00adb5;
   font-size: 19px;
   font-weight: bolder;
+  margin-bottom: 3px;
 }
 
 .caption-style-4 li {
@@ -113,4 +114,9 @@ i{
   margin-right: 30px;  
   margin-left: auto;
   color:white;
+}
+
+.initP{
+  font-weight: bolder;
+  display: inline;
 }
